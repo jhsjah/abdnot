@@ -87,3 +87,19 @@ dom.html:25 1000000
 reem shaikh
 mumbai 
 ```
+### 2. Creating an object and assigning value using new keyword 
+```bash
+ <script>
+          var person = new Object();
+          person.firstName = 'reem';
+          person.lastName = 'shaikh';
+          person.age = 20;
+
+          console.log(person.firstName);
+          //can also write it like this 
+          //console.log(person['firstName']);
+</script>
+
+console:
+reem
+```
