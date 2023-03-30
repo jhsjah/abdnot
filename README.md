@@ -22,3 +22,64 @@ console.log(d);
 //bye, I am a string am 
 
 ```
+ var a = {
+               //key: value 
+              //property: value
+                fname : 'reem',
+                lname : 'shaikh',
+                age : 20,
+                email: 'rtrreem.rchc@gmail.com',
+
+                //array inside object 
+                favMovies : ['abcd', 'efgh', 'lkjh'],
+
+                //adding object inside object 
+                living :
+                {
+                   city : 'mumbai',
+                   country : 'india'
+                },
+
+                salary :  function()   //method
+                {
+                    return 1000000;
+                },
+
+                fullname : function()   //method 
+                {
+                    return this.fname + " " + this.lname;
+                }
+            }
+
+            console.log(a.fname);
+            console.log(a)
+            
+            //calling array inside objects 
+            console.log(a.favMovies);
+            console.log(a.favMovies[0]);  //abcd
+
+            console.log(a.salary());
+
+            console.log(a.fullname());
+            //reem shaikh
+
+            //calling object inside object 
+            console.log(a.living.city);
+</script>
+
+console:
+reem
+object >
+
+(3) ['abcd', 'efgh', 'lkjh']
+0: "abcd"
+1: "efgh"
+2: "lkjh"
+length: 3
+[[Prototype]]: Array(0)
+
+abcd
+dom.html:25 1000000
+reem shaikh
+mumbai 
+```
