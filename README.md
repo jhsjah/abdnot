@@ -22,7 +22,11 @@ console.log(d);
 //bye, I am a string am 
 
 ```
- var a = {
+### 1. Creating object without new keyword 
+Advanced version of arrays 
+```bash 
+ <script>
+            var a = {
                //key: value 
               //property: value
                 fname : 'reem',
